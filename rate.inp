@@ -1,0 +1,28 @@
+3                           !! iflow
+100                         !! iproc
+10                          !! iparallel
+120                         !! iwait
+1000                        !! N_traj
+0.2d-15                     !! dtc (fs)
+0.2d-12                     !! total_time (fs)
+1                           !! nstep_write
+2                           !! nstep_avg
+0                           !! iwrite: 1 - writes output_cl,output_qm
+1                           !! idistribution - 1-classical, 0-Wigner
+0.1                         !! energy_cutoff (for each classical time step)
+1.0                         !! energy_constrian (*kb*temperature)
+1                           !! flag_frust
+1                           !! nclass
+2                           !! nquant
+1836.d0                     !! mass (atomic units)
+200.d0                      !! omg (cm-1)
+0.4d0                       !! V_coup (*hbar*omg)
+1.d0                        !! V_reorg (*hbar*omg)
+4.d0                        !! V_exothermicity (*hbar*omg)
+2.d0                        !! gamma (*hbar*omg)
+5.d0                        !! x_start 
+0                           !! icollapse: 1 - A-FSSH, 0 - FSSH
+1                           !! ifriction: 1 - random forces
+1.d0                        !! temperature (*hbar*omg_0/kb)
+1729 3141                   !! seed
+x
